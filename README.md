@@ -1,1 +1,0 @@
-# jongumero.github.io
