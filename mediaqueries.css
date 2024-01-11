@@ -26,6 +26,12 @@
         flex-direction: column;
     }
 
+    .grid-container img {
+        height: auto; 
+        width: 300px;
+    }
+
+
     #timeline section {
         padding: 0px;
     }
