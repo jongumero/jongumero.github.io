@@ -1,8 +1,22 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     #desktop-nav {
         display:none;
     }
     #hamburger-nav {
         display: flex;
     }
+
+    section {
+        margin: 2rem;
+    }
+
+    #hero-section {
+        flex-direction: column-reverse;
+        gap: 1rem;
+      }
+
+    .project-grid {
+        flex-direction: column;
+    }
 }
+
