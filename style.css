@@ -249,7 +249,7 @@ section {
 }
 
 .grid-container img {
-    height: 200px; 
+    height: 300px; 
     width: auto;
     border-radius: 4px;
     object-fit: contain; 
