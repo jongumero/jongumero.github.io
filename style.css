@@ -162,11 +162,7 @@ a:hover {
 /* ~~~~~~~~ */
 
 section {
-    padding-top: 4vh;
-    margin: 0 10rem;
-    
-    
-    
+      
 }
 
 /* ~~~~~~~~~~~~ */
@@ -177,6 +173,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 5rem; 
+    margin-bottom: 2rem;
 }
 
 .hero-section-pic-container {
@@ -200,6 +197,8 @@ section {
 
 .hero-section-text-container p {
     font-weight: 600;
+    width: 400px;
+    max-width: auto;
 }
 
 .hero-section-text-p1 {
@@ -222,11 +221,10 @@ section {
 /* Project Section */
 /* ~~~~~~~~~~~~~~~ */
 
-#project-section {
+#projects {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    
 }
 
 .project-grid {
@@ -282,20 +280,18 @@ section {
 #timeline {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    max-width: 800px;
 }
 
 #timeline section {
     display: flex;
-    /* justify-content: center; */
-    /* max-width: 550px; */
+    align-self: center;
+    /* width: 550px; */
     flex-direction: row;
     padding: 1rem;
 }
 
-.timeline-title {
-    text-align: left;
+.timeline-container {
+    border-left: 2px solid lightgrey;
     
 }
 
@@ -310,7 +306,8 @@ section {
 .timeline-all {
     display: flex;
     justify-content: center;
-    min-width: 572px;
+    width: auto;
+    max-width: 700px;
 }
 
 .timeline-all div {
@@ -320,29 +317,21 @@ section {
 .timeline-visual {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    max-width: 2px;
+    
+    width: 2px;
     padding-top: 10px;
     color: darkgray;
 }
 
-
-
-.timeline-container {
-    
-}
-
 .timeline-header {
     display: flex;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 .timeline-header div {
     /* display: inline; */
     margin: 5px;
     padding: 4px 10px;
-    
 }
 
 .time {
@@ -364,8 +353,10 @@ section {
 }
 
 .timeline-text {
+    
     margin: 10px;
     padding: 5px;
+    padding-bottom: 3rem;
     font-size: 1rem;
     color: darkgray;
 }

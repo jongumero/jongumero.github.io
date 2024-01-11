@@ -7,16 +7,21 @@
     }
 
     section {
-        margin: 2rem;
+        margin: .5rem;
+
     }
 
     #hero-section {
         flex-direction: column-reverse;
-        gap: 1rem;
+        gap: 2rem; 
       }
 
     .project-grid {
         flex-direction: column;
+    }
+
+    .timeline-all {
+        min-width: none;
     }
 }
 
