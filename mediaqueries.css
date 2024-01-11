@@ -16,6 +16,12 @@
         gap: 2rem; 
       }
 
+    .hero-section-text-container p{ 
+        width: auto;
+        max-width: 400px;
+        margin: 1rem;
+    }
+
     .project-grid {
         flex-direction: column;
     }

@@ -198,7 +198,7 @@ section {
 .hero-section-text-container p {
     font-weight: 600;
     width: 400px;
-    max-width: auto;
+    /* max-width: auto; */
     
 }
 
@@ -213,6 +213,7 @@ section {
 
 .hero-section-text-p3 {
     text-align: justify;
+    /* padding: 0 1rem; */
 }
 
 .hero-section-title {
