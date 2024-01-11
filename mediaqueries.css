@@ -20,8 +20,23 @@
         flex-direction: column;
     }
 
+    #timeline section {
+        padding: 0px;
+    }
+
     .timeline-all {
         min-width: none;
+        padding: 0px;
+    }
+
+    .timeline-header {
+        flex-direction: column; /* Stack header items vertically */
+        align-items: flex-start; /* Align items to the start */
+        
+    }
+
+    .time-title { 
+        font-size: 1.5rem;
     }
 }
 
