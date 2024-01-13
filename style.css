@@ -231,11 +231,14 @@ section {
     display: flex;
     justify-content: center;
     gap: 5rem;
-   
+    
 }
 
 .project-grid {
     display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
 }
 
 .project-grid div {
@@ -255,7 +258,7 @@ section {
     display: block;
     height: 300px; 
     width: auto;
-    object-fit: contain; 
+    object-fit: cover; 
     margin-bottom: 5px;
 }
 
