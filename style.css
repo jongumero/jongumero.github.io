@@ -20,7 +20,7 @@ html {
 
 p {
     color: rgb(85,85,85);
-    min-width: 300px;
+    /* min-width: 300px; */
 }
 
 /* ~~~~~~~~~~ */
@@ -231,12 +231,15 @@ section {
     display: flex;
     justify-content: center;
     gap: 5rem;
+   
 }
 
 .project-grid {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+}
+
+.project-grid div {
+    align-self: flex-start;
 }
 
 .grid-container {
@@ -248,6 +251,13 @@ section {
     border-radius: 4px;
 }
 
+.grid-container video {
+    display: block;
+    height: 300px; 
+    width: auto;
+    object-fit: contain; 
+    margin-bottom: 5px;
+}
 
 .grid-container img {
     height: 300px; 
@@ -304,8 +314,8 @@ section {
 }
 
 .description {
-    padding: 0.5rem;
-    width: 300px;
+    padding-top: 10px;
+    width: 295px;
     text-align: justify;
     display: none;
 }
