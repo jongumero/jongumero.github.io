@@ -31,9 +31,12 @@
         width: 300px;
     }
 
+    .project-2 {
+        display: inherit;
+    }
+
     .grid-container video {
-        height: auto; 
-        width: 300px;
+        display: none;
     }
 
 
